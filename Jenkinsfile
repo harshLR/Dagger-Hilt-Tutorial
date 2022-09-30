@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('compile') {
       steps {
-        sh './gradlew assemble'
+        sh './gradlew compile$ release Sources'
       }
     }
 
