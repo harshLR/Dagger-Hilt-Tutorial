@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('compile') {
       steps {
-        sh './gradlew compile$ release Sources'
+        sh './gradlew compile release Sources'
       }
     }
 
